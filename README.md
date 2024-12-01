@@ -1,17 +1,15 @@
 # Walmart Sales Data Analysis
 
 ## About
-This project focuses on analyzing Walmart sales data to gain insights into branch performance, product sales trends, and customer behavior. By exploring historical sales data, we aim to identify key factors affecting sales across different Walmart branches and suggest improvements to sales strategies. The dataset used in this analysis is from the Kaggle Walmart Sales Forecasting Competition(
+This project focuses on analyzing Walmart sales data to gain insights into product sales trends, and customer behavior. The dataset used in this analysis is from the Kaggle Walmart Sales Forecasting Competition(
 https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
 
 ## Objective of project 
 The main goal of this project is to analyze Walmart’s sales data to understand:
 
 The performance of different product lines.
 The factors influencing customer purchasing decisions.
-Sales trends across branches and product lines.
 Strategies to optimize and improve sales performance.
 
 ## About Data
@@ -44,13 +42,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 > Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
 
-2. Sales Analysis
 
-> This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
-
-3. Customer Analysis
-
-> This analysis aims to uncover the different customers segments, purchase trends and the profitability of each customer segment.
 
 ## Approach Used
 
@@ -93,27 +85,6 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 8. Which branch sold more products than average product sold?
 9. What is the most common product line by gender?
 12. What is the average rating of each product line?
-
-### Sales
-
-1. Number of sales made in each time of the day per weekday
-2. Which of the customer types brings the most revenue?
-3. Which city has the largest tax percent/ VAT (**Value Added Tax**)?
-4. Which customer type pays the most in VAT?
-
-### Customer
-
-1. How many unique customer types does the data have?
-2. How many unique payment methods does the data have?
-3. What is the most common customer type?
-4. Which customer type buys the most?
-5. What is the gender of most of the customers?
-6. What is the gender distribution per branch?
-7. Which time of the day do customers give most ratings?
-8. Which time of the day do customers give most ratings per branch?
-9. Which day fo the week has the best avg ratings?
-10. Which day of the week has the best average ratings per branch?
-
 
 ## Revenue And Profit Calculations
 
