@@ -1,7 +1,7 @@
 # Walmart Sales Data Analysis
 
 ## About
-This project focuses on analyzing Walmart sales data to gain insights into product sales trends, and customer behavior. The dataset used in this analysis is from the Kaggle Walmart Sales Forecasting Competition(
+This project focuses on analyzing Walmart sales data to gain insights into product sales trends and customer behavior. The dataset used in this analysis is from the Kaggle Walmart Sales Forecasting Competition(
 https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 
 
@@ -9,7 +9,6 @@ https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 The main goal of this project is to analyze Walmart’s sales data to understand:
 
 The performance of different product lines.
-The factors influencing customer purchasing decisions.
 Strategies to optimize and improve sales performance.
 
 ## About Data
@@ -52,7 +51,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 > 2. Create table and insert the data.
 > 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set **NOT NULL** for each field, hence null values are filtered out.
 
-2. **Feature Engineering:** This will help use generate some new columns from existing ones.
+2. **Feature Engineering:** This will help use generate some new columns from existing ones 
 
 > 1. Add a new column named `time_of_day` to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
 
@@ -68,23 +67,22 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 
 ### Generic Question
 
-1. How many unique cities does the data have?
-2. In which city is each branch?
+1. How many unique cities does the data have? - 3 
+2. In which city is each branch? - A , B , C 
 
 ### Product
 
-1. How many unique product lines does the data have?
-2. What is the most common payment method?
-3. What is the most selling product line?
-4. What is the total revenue by month?
-5. What month had the largest COGS?
-6. What product line had the largest revenue?
-5. What is the city with the largest revenue?
-6. What product line had the largest VAT?
+1. How many unique product lines does the data have? - 6 
+2. What is the most common payment method? - Cash
+3. What is the most selling product line? - food and beverages
+4. What is the total revenue by month? (Jan , Feb , Mar) 
+5. What month had the largest COGS? (Jan)
+6. What product line had the largest revenue?  - food and beverages
+5. What is the city with the largest revenue? - C
+6. What product line had the largest VAT?  - food and beverages
 7. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-8. Which branch sold more products than average product sold?
-9. What is the most common product line by gender?
-12. What is the average rating of each product line?
+8. What is the most common product line by gender? fashion women , health men
+9. What is the average rating of each product line? - food and beverges have highest and home and lifestyle have lowest
 
 ## Revenue And Profit Calculations
 
